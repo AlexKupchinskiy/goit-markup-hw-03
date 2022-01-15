@@ -113,12 +113,13 @@ body {
 
 .list-text {
     display: flex;
+    margin-left: 93px;
 }
 
 .text-item-studio {
     color: var(--main-bg-color);
     text-decoration: none;
-    margin-left: 93px;
+    /*margin-left: 93px;*/
 }
 .list-about {
     color: var(--main-bg-color);
@@ -280,8 +281,7 @@ body {
 }
 
 .pre-team {
-    padding-bottom: 50px;
-    padding-top: 20px;
+    margin-bottom: 50px;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -485,12 +485,11 @@ body {
     margin-top: 9px;
 }
 
-.footer-item-about {
+.footer-item-adress {
     font-style: normal;
     line-height: 1.71;
     color: var(--background-color);
     text-decoration: none;
-    margin-top: 9px;
 }
 
 .logotype-link-studio2 {
@@ -498,7 +497,7 @@ body {
 }
 
 .footer-item {
-    /*color: var(--item-color);*/
+    display: block;
     text-decoration: none;
     margin-bottom: 9px;
 }
